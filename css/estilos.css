@@ -14,6 +14,7 @@ header{
     height: 900px;
     background: #ffffff;
     z-index: 2;
+   
 
 }
 .imagen-logo{
@@ -41,7 +42,7 @@ header{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    display:none;
+    display: none;
 }
 #icon-menu:hover{
 background: #f2f2f2;
@@ -90,7 +91,17 @@ left: -6.56%;
 .menu .menutexto{
     color: black;
 }
+/*buscador*/
 
+#cs-icon-search{
+    position: relative;
+    right: 120px;
+    left: 0px;
+    height: 100%;
+    display: flex;
+
+
+}
 
 /*portada*/
 
@@ -229,7 +240,8 @@ article{
 
   
 }
-
+/*aun no se cual es el error de la animacion de menu pero voy a empezar buevamente todo el css ya que tengo 
+varios fallos que no lo tengo muy claro*/
 /*
 @media screen and (max-width: 800px){
 
@@ -296,3 +308,5 @@ article{
     }
 }
 */ 
+
+
